@@ -144,28 +144,108 @@ document.write("Variable names should not be JS keywords False <br>")
 
 // // Task 2
 
+// Subtraction
 // var num1 = prompt("Enter first no:");
 // var num2 = prompt("Enter second no:");
 // var sub = num1 - num2;
 // document.write("The subraction of " + n1 + " and " + n2 + " is " + sub);
 
-
+// Multiply
 // var num1 = prompt("Enter first no:");
 // var num2 = prompt("Enter second no:");
 // var mul = num1 * num2;
 // document.write("The product of " + n1 + " and " + n2 + " is " + mul);
 
-
+// Division
 // var num1 = prompt("Enter first no:");
 // var num2 = prompt("Enter second no:");
 // var div = num1 + num2;
 // document.write("The division of " + n1 + " and " + n2 + " is " + div);
 
-
+// Modulus
 // var num1 = prompt("Enter first no:");
 // var num2 = prompt("Enter second no:");
 // var mod = num1 + num2;
 // document.write("The modulus of " + n1 + " and " + n2 + " is " + mod);
+
+
+// // Task 3
+// var variable;
+// document.write("<br><br>Value after variable declaration is " + variable);
+// variable = 5;
+// document.write("<br>Initial value is ", variable++);
+// document.write("<br>Value after increment is " + variable);
+// document.write("<br>Value after addition is " + (variable+7));
+// document.write("<br>Value after decrement is " + --variable);
+// document.write("<br>The remainder is " + variable%3)
+
+
+// // Task 4
+
+// var cost_of_movie_ticket = 600;
+// var no_of_tickets = 5;
+// document.write("<br><br>Total cost to buy " + no_of_tickets + " tickets to a movie is " + cost_of_movie_ticket + "PKR")
+
+
+// // Task 5
+// var no = prompt("Enter a number:");
+// for(var i = 1 ; i<11; i++){
+//     document.write("<br>" + no + "   x    " + i + "    =    " + "    " + (no*i))
+// }
+
+
+// ************************************* Chapter 6-9 **************************** //
+
+// // Task 1
+// var a = prompt("Enter value of a:");
+// document.write("<br><br>Result:");
+// document.write("<br>The value of a is: ",a);
+// document.write("<br><br>............................");
+// document.write("<br><br>The value of ++a is: ",++a);
+// document.write("<br>The value of a is: ",a);
+// document.write("<br><br>The value of a++ is:",a++);
+// document.write("<br>The value of a is:",a);
+// document.write("<br><br>The value of --a is: ",--a);
+// document.write("<br>The value of a is: ",a);
+// document.write("<br><br>The value of a-- is: ",a--);
+// document.write("<br>The value of a is: ",a);
+
+// // Task 2
+// var a = 2, b = 1;
+// document.write("<br><br>a is ",a);
+// document.write("<br>b is ",b);
+// var result = --a - --b + ++b + b--;
+// // --a = 1
+// // --a - --b = 1
+// // --a - --b + ++b = 2
+// // --a - --b + ++b + b-- = 3
+// document.write("<br>Result is ",result);
+
+
+// // Task 3
+
+// var name = prompt("Enter your name: ");
+// alert("Hello " + name + " Welcome to our site!!!")
+
+
+// // Task 4
+
+// var no = prompt("Enter a number:");
+// if(no === ""){
+//     no = 5
+// }
+// for(var i = 1 ; i<11; i++){
+//     document.write("<br>" + no + "   x    " + i + "    =    " + "    " + (no*i))
+// }
+
+
+// // Task 5
+
+
+
+
+
+
 
 
 
